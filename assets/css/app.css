@@ -1,0 +1,14 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: 'Courier New', 'Courier';
+}
+
+header {
+    height: 50vh;
+    margin: 15vh 16px;
+}
