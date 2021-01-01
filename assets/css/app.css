@@ -36,3 +36,16 @@ blockquote {
     font-size: 1.17em;
     line-height: 24px;
 }
+
+.container {
+    margin: 0 auto;
+    padding-right: 16px;
+    padding-left: 16px;
+    transition: padding 0.2s ease-in;
+}
+
+@media (min-width: 1420px) {
+    .container {
+        width: 1400px;
+    }
+}
