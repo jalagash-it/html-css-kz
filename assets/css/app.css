@@ -26,3 +26,13 @@ blockquote {
         margin-left: -16px;
     }
 }
+
+.stop-learn-in-5-days {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.joke-about-5-days {
+    font-size: 1.17em;
+    line-height: 24px;
+}
