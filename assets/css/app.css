@@ -50,6 +50,42 @@ blockquote {
     }
 }
 
+.row {
+    margin-right: -16px;
+    margin-left: -16px;
+}
+
+@media (min-width: 993px) {
+    .col-offset-2 {
+        margin-left: 16.666666666666664%;
+    }
+    .col-6 {
+        width: 50%;
+    }
+    [class^='col-'] {
+        float: left;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-sm-8 {
+        width: 66.66666667%;
+    }
+}
+
+@media (min-width: 768px) {
+    [class^='col-'] {
+        float: left;
+    }
+}
+
+[class^='col-'] {
+    position: relative;
+    min-height: 1px;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
 .semilink {
     background-image: radial-gradient(circle, rgba(102, 102, 102, 0.6) 1px, transparent 1px);
     background-repeat: repeat-x;
@@ -62,7 +98,7 @@ blockquote {
     background-size: 4px 1px;
 }
 
-@keyframes example {
+@keyframes showNav {
     from {
         opacity: 0;
     }
@@ -73,6 +109,40 @@ blockquote {
 
 nav {
     opacity: 1;
-    animation-name: example;
+    animation-name: showNav;
     animation-duration: 4s;
+}
+
+.text-center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }

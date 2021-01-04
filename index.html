@@ -24,7 +24,7 @@
 
 <body>
     <header>
-        <center>
+        <div class="text-center">
             <h1>html & css</h1>
             <p class="stop-learn-in-5-days">бес күнде үйреніп алғанды қойыңыздар !</p>
             <blockquote style="margin-top: 100px;">
@@ -32,34 +32,40 @@
                     қалқам-ау, адам бес күнде отын шабуды да үйрене алмайды &#128578;
                 </b>
             </blockquote>
-        </center>
+        </div>
         <nav>
-            <center>
+            <div class="text-center">
                 <a href="#intro" class="semilink">Кіріспе</a> &#8226;
                 <a href="#contents" class="semilink">Мазмұны</a> &#8226;
                 <a href="#additional" class="semilink">Қосымша</a>
-            </center>
+            </div>
         </nav>
     </header>
 
     <div class="container intro" id="intro">
         <section>
             <div class="row">
-                <div class="col-sm-8 col-6">
-                    <h2>Дизайн деген не өзі ? (немесе web designer)</h2>
-                    <p>Нашар дизайнмен кез-келген керемет проектті құрдымға кетірсе болады.</p>
+                <div class="col-sm-8 col-6 col-offset-2">
+                    <h2>Верстка деген не өзі ? <small>(қазақшасы қалай екен ?&#128580;)</small></h2>
+                    <p>
+                        Кез-келген сайттың ең бірінші сынға ілігетін тұсы дизайны.
+                        <br> Қолданушылар әуелі көзбен сынайды. Сайтыңыз көзге әдемі көрінсе ғана әрі қарай қолданып көреді.
+                    </p>
+                    <p>
+                        Нашар дизайнмен кез-келген керемет проектті құрдымға кетірсе болады. Сол себепті web designer жауапты әрі өз ісіне тиянақтылықпен қарайтын адам болуы тиіс.
+                    </p>
                 </div>
             </div>
-            html & css үлкен жауапкершілік
+
         </section>
         <section>
             <!-- мақсат қоймай іс бітпес -->
         </section>
     </div>
-    <div id="contents" class="container">
+    <div id="contents" class="container" hidden>
         contents
     </div>
-    <div id="additional" class="container">
+    <div id="additional" class="container" hidden>
         <h2>қолданылған реусрстар</h2>
         <ul>
             <li><a href="http://css-tricks.com">css-tricks.com</a></li>
