@@ -8,6 +8,10 @@ body {
     font-family: 'Courier New', 'Courier';
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     height: 50vh;
     margin: 25vh 16px;
