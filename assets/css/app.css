@@ -17,20 +17,6 @@ header {
     margin: 25vh 16px;
 }
 
-blockquote {
-    padding: 22px 80px 24px 60px;
-    margin: 0 0 24px;
-    background: #f7f5ec;
-}
-
-@media (max-width: 767px) {
-    blockquote {
-        padding: 24px 32px;
-        margin-right: -16px;
-        margin-left: -16px;
-    }
-}
-
 .stop-learn-in-5-days {
     font-size: 1.5em;
     font-weight: bold;
@@ -41,56 +27,8 @@ blockquote {
     line-height: 24px;
 }
 
-.container {
-    margin: 0 auto;
-    padding-right: 16px;
-    padding-left: 16px;
-    transition: padding 0.2s ease-in;
-}
 
-@media (min-width: 1420px) {
-    .container {
-        width: 1400px;
-    }
-}
-
-.row {
-    margin-right: -16px;
-    margin-left: -16px;
-}
-
-@media (min-width: 993px) {
-    .col-offset-2 {
-        margin-left: 16.666666666666664%;
-    }
-    .col-6 {
-        width: 50%;
-    }
-    [class^='col-'] {
-        float: left;
-    }
-}
-
-@media (min-width: 768px) {
-    .col-sm-8 {
-        width: 66.66666667%;
-    }
-}
-
-@media (min-width: 768px) {
-    [class^='col-'] {
-        float: left;
-    }
-}
-
-[class^='col-'] {
-    position: relative;
-    min-height: 1px;
-    padding-right: 16px;
-    padding-left: 16px;
-}
-
-.semilink {
+/* .semilink {
     background-image: radial-gradient(circle, rgba(102, 102, 102, 0.6) 1px, transparent 1px);
     background-repeat: repeat-x;
     background-position: 0 92%;
@@ -100,7 +38,7 @@ blockquote {
     text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
     color: #666;
     background-size: 4px 1px;
-}
+} */
 
 @keyframes showNav {
     from {
