@@ -15,7 +15,7 @@ html {
 }
 
 header {
-    height: 50vh;
+    min-height: 50vh;
     margin: 25vh 16px;
 }
 
@@ -28,19 +28,6 @@ header {
     font-size: 1.17em;
     line-height: 24px;
 }
-
-
-/* .semilink {
-    background-image: radial-gradient(circle, rgba(102, 102, 102, 0.6) 1px, transparent 1px);
-    background-repeat: repeat-x;
-    background-position: 0 92%;
-    text-decoration: none;
-    transition: all .25s 0s ease;
-    cursor: pointer;
-    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
-    color: #666;
-    background-size: 4px 1px;
-} */
 
 @keyframes showNav {
     from {

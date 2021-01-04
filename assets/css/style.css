@@ -57,13 +57,6 @@ small,
     font-weight: 400;
 }
 
-h1,
-.huge {
-    font: 900 7.2rem/1.2 'Merriweather', Georgia, serif;
-    margin-top: 0;
-    margin-bottom: 16px;
-}
-
 h2,
 h3,
 .big {
