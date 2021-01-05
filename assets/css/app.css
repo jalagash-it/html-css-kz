@@ -44,6 +44,18 @@ nav {
     animation-duration: 4s;
 }
 
+@media (min-width: 768px) {
+    nav {
+        min-height: 558px;
+    }
+}
+
+@media (max-width: 767px) {
+    nav {
+        min-height: 1205px;
+    }
+}
+
 .text-center {
     text-align: center;
     margin-left: auto;
