@@ -46,7 +46,7 @@ nav {
 
 @media (min-width: 768px) {
     nav {
-        min-height: 558px;
+        min-height: 300px;
     }
 }
 
@@ -89,4 +89,10 @@ nav {
 
  ::-webkit-scrollbar-thumb:hover {
     background: #555;
+}
+
+.github-corner {
+    position: absolute;
+    right: 0;
+    top: -20vh;
 }

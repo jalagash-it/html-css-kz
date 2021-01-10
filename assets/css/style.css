@@ -288,14 +288,11 @@ ul .br {
     font-weight: 400;
 }
 
-a,
 .semilink {
     cursor: pointer;
     text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
 }
 
-a,
-a:link,
 .semilink,
 .extra-symbol u {
     color: #0079a7;
