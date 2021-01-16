@@ -24,7 +24,6 @@
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Fira+Sans:400,400i,700%7CMerriweather:400,900&amp;subset=cyrillic">
     <link rel="stylesheet" href="/assets/css/app.css">
     <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="/assets/css/footer.css">
     <link rel="stylesheet" href="/assets/css/auth.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -48,16 +47,28 @@
     <div class="container">
         <div class="row">
             <div class="col-12 auth-via-telegram">
-                <script async src="https://telegram.org/js/telegram-widget.js?14" data-telegram-login="html_css_kz_bot" data-size="medium" data-onauth="onTelegramAuth(user)" data-request-access="write"></script>
-                <script type="text/javascript">
-                    function onTelegramAuth(user) {
-                        alert('Logged in as ' + user.first_name + ' ' + user.last_name + ' (' + user.id + (user.username ? ', @' + user.username : '') + ')');
-                    }
-                </script>
+                <div>
+                    <script async src="https://telegram.org/js/telegram-widget.js?14" data-telegram-login="html_css_kz_bot" data-size="medium" data-onauth="onTelegramAuth(user)" data-request-access="write"></script>
+                    <script type="text/javascript">
+                        function onTelegramAuth(user) {
+                            alert('Logged in as ' + user.first_name + ' ' + user.last_name + ' (' + user.id + (user.username ? ', @' + user.username : '') + ')');
+                        }
+                    </script>
+                </div>
+                <div class="text-center">
+                    <p class="small text-gray">авторизация тек <b>telegram</b> арқылы &#128578;</p>
+                    <p class="small text-gray">
+                        Алып-қосарыңыз болса телеграм чатымызға қосылыңыз <a href="https://t.me/zhalagash" class="link-gray semilink">https://t.me/zhalagash</a>
+                    </p>
+                    <p class="small text-gray">
+                        немесе маған жекеге жазыңыз <a href="https://t.me/karnurmax" class="link-gray semilink">https://t.me/karnurmax</a>
+                    </p>
 
-                <!-- content -->
+                    <a href="/" class="semilink">Басты бетке оралу</a>
+                </div>
             </div>
         </div>
+
     </div>
     <!-- container -->
 </body>
