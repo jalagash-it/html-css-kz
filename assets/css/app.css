@@ -128,6 +128,12 @@ nav {
     fill: white;
 }
 
+.scrolltop-wrap a:focus,
+.scrolltop-wrap a:hover,
+.scrolltop-wrap a:active {
+    border-radius: 50%;
+}
+
 @supports (-moz-appearance: meterbar) {
     .scrolltop-wrap {
         clip: rect(0, 3rem, auto, 0);
