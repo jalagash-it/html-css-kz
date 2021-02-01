@@ -293,6 +293,7 @@ ul .br {
     text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
 }
 
+.container a,
 .semilink,
 .extra-symbol u {
     color: #0079a7;
